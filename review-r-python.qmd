@@ -1,0 +1,72 @@
+---
+title: "Homework 2: Reviewing R and Python"
+author: "Your Name"
+date: "Due: Feb 3, 2023"
+output: html_document
+---
+
+
+
+A palindrome is a string that is equal to the reverse of that string, such as "Mom", "Hannah" or "We panic in a pew."
+
+Traditionally, a phrase is considered a palindrome once all spaces and punctuation has been removed, and all letters are written in the same case.
+
+# Problem 1: Simple Palindromes
+## Pseudocode
+
+Write a detailed list of steps to process a string named `test` to test that it is a palindrome. 
+
+Hint: The final items in this list of steps should be defining a variable `revtest` that is `test` with the letters reversed, and then comparing `test` and `revtest` for equality.
+
+
+
+## R
+
+Turn your pseudocode into a sequence of statements in R that work with a variable named `test`.
+At this point, there is no need to write these steps in a function - we'll get there.
+
+```{r}
+test <- "Hannah"
+
+# Your steps go here
+```
+
+
+## Python
+
+Turn your pseudocode into a sequence of statements in python that work with a variable named `test`.
+At this point, there is no need to write these steps in a function - we'll get there.
+
+```{python}
+test = "Hannah"
+
+# Your steps go here
+```
+
+
+# Problem 2: Functional Palindromes
+
+In R and Python, use your code above to create a function, `palindrome`, which takes an argument, `x`, and returns a logical value indicating whether `x` is a palindrome.
+
+```{r}
+# Your R function goes here
+```
+
+```{python}
+# Your python function goes here
+```
+
+
+# Problem 3: Vectors of Palindromes
+
+Use a loop, map, or apply statement to find all of the palindromes in a vector. I should be able to provide a different vector and use your function to find all of the palindromes.
+
+```{r}
+test_vec <- c("taco cat", "UFO tofu", "In palindromes, spacing, punctuation, and capitalization are usually ignored.", "Borrow or rob?", "dithyrambic", "Never odd or even.", "R rules, Python drools!", "Won't lovers revolt now?", "Ma is a nun, as I am.")
+
+```
+
+
+```{python}
+test_vec = ["taco cat", "UFO tofu", "In palindromes, spacing, punctuation, and capitalization are usually ignored.", "Borrow or rob?", "dithyrambic", "Never odd or even.", "R rules, Python drools!", "Won't lovers revolt now?", "Ma is a nun, as I am."]
+```
