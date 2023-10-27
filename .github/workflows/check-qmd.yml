@@ -1,0 +1,13 @@
+on: 
+  push:
+    branches:
+    - main
+    paths:
+    - 'index.qmd'  
+name: Check Repo
+jobs:
+  check-qmd:
+    runs-on: self-hosted
+    steps:
+    - name: Check qmd Rendering
+      run:  quarto render index.qmd
