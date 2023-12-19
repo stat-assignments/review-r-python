@@ -1,7 +1,7 @@
 ---
 title: "Homework 2: Reviewing R and Python"
 author: "Your Name"
-date: "Due: Feb 3, 2023"
+date: "Due: Feb 5, 2023"
 output: html_document
 ---
 
@@ -9,12 +9,14 @@ output: html_document
 
 A palindrome is a string that is equal to the reverse of that string, such as "Mom", "Hannah" or "We panic in a pew."
 
-Traditionally, a phrase is considered a palindrome once all spaces and punctuation has been removed, and all letters are written in the same case.
+Traditionally, a phrase is tested for being a palindrome once all spaces and punctuation has been removed, and all letters are written in the same case. You will need to think about how to do these tasks in R and python.
 
 # Problem 1: Simple Palindromes
 ## Pseudocode
 
 Write a detailed list of steps to process a string named `test` to test that it is a palindrome. 
+
+You may find it helpful to write down some test words and work through them as if you were an algorithm. If you do this, please take a picture of your scratch paper, put it in the homework directory, and add it to your git repository along with your assignment solution.
 
 Hint: The final items in this list of steps should be defining a variable `revtest` that is `test` with the letters reversed, and then comparing `test` and `revtest` for equality.
 
@@ -27,6 +29,7 @@ At this point, there is no need to write these steps in a function - we'll get t
 
 ```{r}
 test <- "Hannah"
+test2 <- "not-a-palindrome"
 
 # Your steps go here
 ```
@@ -39,6 +42,7 @@ At this point, there is no need to write these steps in a function - we'll get t
 
 ```{python}
 test = "Hannah"
+test2 = "not-a-palindrome"
 
 # Your steps go here
 ```
